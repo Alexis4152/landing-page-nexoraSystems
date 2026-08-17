@@ -1,0 +1,73 @@
+/*
+  Design tokens — retoca aquí para cambiar colores, tipografía y
+  espaciados en toda la landing sin tocar los componentes.
+*/
+:root {
+  /* --- Colores base --- */
+  --color-bg: #05070d;
+  --color-bg-elevated: #0b0f1c;
+  --color-bg-elevated-2: #10162a;
+  --color-border: rgba(148, 172, 224, 0.14);
+  --color-border-strong: rgba(148, 172, 224, 0.28);
+
+  /* Azules de marca (gradiente del logo) */
+  --color-brand-100: #dff3ff;
+  --color-brand-300: #7fd7ff;
+  --color-brand-400: #4fc3f7;
+  --color-brand-500: #2f8cff;
+  --color-brand-600: #1a5bf0;
+  --color-brand-700: #123fc7;
+  --gradient-brand: linear-gradient(135deg, var(--color-brand-400) 0%, var(--color-brand-600) 100%);
+  --gradient-brand-soft: linear-gradient(135deg, rgba(79, 195, 247, 0.18) 0%, rgba(26, 91, 240, 0.1) 100%);
+
+  /* Texto */
+  --color-text-primary: #f5f8ff;
+  --color-text-secondary: #aab6d3;
+  --color-text-muted: #7481a3;
+
+  /* Estados */
+  --color-success: #34d399;
+
+  /* --- Tipografía --- */
+  --font-heading: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.9375rem;
+  --fs-base: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 2.75rem;
+  --fs-4xl: 3.75rem;
+
+  /* --- Espaciados (escala de 8px) --- */
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 6rem;
+  --space-9: 8rem;
+
+  /* --- Layout --- */
+  --container-width: 1180px;
+  --container-padding: clamp(1.25rem, 4vw, 2.5rem);
+
+  /* --- Bordes y sombras --- */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 20px 60px -20px rgba(4, 10, 30, 0.6);
+  --shadow-glow: 0 0 0 1px rgba(79, 195, 247, 0.15), 0 20px 50px -15px rgba(47, 140, 255, 0.35);
+
+  /* --- Transiciones --- */
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 160ms;
+  --dur-base: 260ms;
+  --dur-slow: 480ms;
+}
