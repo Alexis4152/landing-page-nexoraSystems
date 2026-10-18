@@ -9,6 +9,7 @@ export const site = {
 };
 
 export const nav = [
+  { label: "Soluciones", href: "#soluciones" },
   { label: "Beneficios", href: "#beneficios" },
   { label: "Cómo funciona", href: "#como-funciona" },
   { label: "Casos de uso", href: "#casos-de-uso" },
@@ -111,6 +112,156 @@ export const steps = [
   },
 ];
 
+export const projects = [
+  {
+    id: "punto-de-venta",
+    name: "Punto de Venta",
+    category: "Comercio y retail",
+    tagline: "Cobra rápido, controla tu inventario y conoce tus números al instante.",
+    description:
+      "Un sistema de punto de venta completo para tiendas, abarrotes y comercios: ventas, cortes de caja, inventario y reportes en una sola pantalla, sin hojas de cálculo ni libretas.",
+    features: [
+      "Ventas rápidas con lector de código de barras",
+      "Control de inventario con alertas de stock bajo",
+      "Cortes de caja y control por usuario",
+      "Reportes de ventas por día, producto y vendedor",
+    ],
+    benefits: [
+      "Sabes exactamente cuánto vendes y cuánto ganas, todos los días",
+      "Se acaban los faltantes de caja y la mercancía que “desaparece”",
+      "Compras con datos: reabasteces lo que sí se vende",
+    ],
+    highlight: "Tu negocio, en números claros desde el primer día.",
+    idealFor: "Abarrotes, papelerías, ferreterías, boutiques y cualquier comercio con mostrador.",
+  },
+  {
+    id: "hotel",
+    name: "Gestión Hotelera",
+    category: "Hospedaje",
+    tagline: "Reservaciones, habitaciones y huéspedes bajo control, sin dobles reservas.",
+    description:
+      "Plataforma para hoteles, posadas y casas de huéspedes que centraliza reservaciones, disponibilidad de habitaciones, check-in, check-out y cobros.",
+    features: [
+      "Calendario de disponibilidad por habitación",
+      "Registro de huéspedes, check-in y check-out",
+      "Control de estados: libre, ocupada, en limpieza",
+      "Reportes de ocupación e ingresos",
+    ],
+    benefits: [
+      "Cero sobreventas ni reservaciones perdidas",
+      "Tu recepción atiende más rápido y con menos errores",
+      "Ves tu ocupación real y planeas temporadas con datos",
+    ],
+    highlight: "Más huéspedes felices, menos caos en recepción.",
+    idealFor: "Hoteles boutique, posadas, moteles y casas de huéspedes.",
+  },
+  {
+    id: "citas",
+    name: "Sistema de Citas",
+    category: "Servicios profesionales",
+    tagline: "Agenda llena, menos ausencias y clientes que reservan solos.",
+    description:
+      "Agenda en línea para consultorios, estéticas, barberías y despachos: tus clientes eligen fecha y hora, y el sistema se encarga de confirmar y recordar.",
+    features: [
+      "Reservación en línea 24/7",
+      "Recordatorios automáticos de cita",
+      "Agenda por profesional o por servicio",
+      "Historial de clientes y servicios",
+    ],
+    benefits: [
+      "Menos citas olvidadas gracias a los recordatorios",
+      "Dejas de perder tiempo agendando por mensajes",
+      "Tu agenda se llena incluso mientras duermes",
+    ],
+    highlight: "Tu agenda trabaja por ti, a cualquier hora.",
+    idealFor: "Consultorios, estéticas, barberías, spas, despachos y talleres.",
+  },
+  {
+    id: "taxis",
+    name: "Gestión de Taxis",
+    category: "Transporte",
+    tagline: "Viajes, unidades y choferes organizados desde un solo panel.",
+    description:
+      "Sistema para sitios y flotillas de taxis que organiza solicitudes de viaje, asignación de unidades, choferes y cobros, con visibilidad de toda la operación.",
+    features: [
+      "Registro y asignación de viajes",
+      "Control de unidades y choferes",
+      "Historial de servicios y cobros",
+      "Reportes de ingresos por unidad y chofer",
+    ],
+    benefits: [
+      "Asignas viajes más rápido y atiendes más clientes",
+      "Cuentas claras con cada chofer, sin discusiones",
+      "Sabes qué unidad produce y cuál te cuesta",
+    ],
+    highlight: "Tu flotilla organizada, tus cuentas siempre claras.",
+    idealFor: "Sitios de taxis, flotillas, transporte ejecutivo y servicios de traslado.",
+  },
+  {
+    id: "restaurantes",
+    name: "Restaurantes",
+    category: "Alimentos y bebidas",
+    tagline: "Comandas, mesas y cocina sincronizadas para servir más rápido.",
+    description:
+      "Sistema para restaurantes, cafeterías y fondas que conecta meseros, cocina y caja: toma de comandas, control de mesas, cuentas e inventario de insumos.",
+    features: [
+      "Toma de comandas por mesa",
+      "Comandas directas a cocina",
+      "División de cuentas y cobro ágil",
+      "Control de insumos y platillos más vendidos",
+    ],
+    benefits: [
+      "Menos errores en pedidos y menos platillos regresados",
+      "Rotas mesas más rápido en horas pico",
+      "Sabes qué platillos te dejan más ganancia",
+    ],
+    highlight: "Del pedido a la mesa, sin errores ni esperas.",
+    idealFor: "Restaurantes, cafeterías, fondas, bares y food trucks.",
+  },
+  {
+    id: "gym",
+    name: "Gestión de Gimnasios",
+    category: "Fitness y bienestar",
+    tagline: "Membresías, accesos y pagos al día, sin perseguir a nadie.",
+    description:
+      "Plataforma para gimnasios y estudios fitness que administra socios, membresías, vencimientos, pagos y asistencias.",
+    features: [
+      "Alta de socios y planes de membresía",
+      "Control de vencimientos y renovaciones",
+      "Registro de pagos y asistencias",
+      "Reportes de socios activos e ingresos",
+    ],
+    benefits: [
+      "Nadie entrena con la membresía vencida",
+      "Detectas a tiempo a los socios que dejan de venir",
+      "Ingresos más estables con renovaciones bajo control",
+    ],
+    highlight: "Más socios activos, menos cobranza manual.",
+    idealFor: "Gimnasios, boxes de crossfit, estudios de yoga, pilates y artes marciales.",
+  },
+  {
+    id: "ecommerce",
+    name: "E-commerce",
+    category: "Tienda en línea",
+    tagline: "Tu tienda abierta 24/7, vendiendo en todo México.",
+    description:
+      "Tienda en línea a la medida para cualquier giro: catálogo con búsqueda, carrito de compras, pagos y gestión de pedidos, conectada a tu inventario.",
+    features: [
+      "Catálogo con búsqueda y categorías",
+      "Carrito de compras y pagos en línea",
+      "Gestión de pedidos y envíos",
+      "Inventario conectado a tu operación",
+    ],
+    benefits: [
+      "Vendes a clientes fuera de tu ciudad",
+      "Tu tienda sigue vendiendo cuando cierras la cortina",
+      "Un solo inventario para tienda física y en línea",
+    ],
+    highlight: "Tus productos, al alcance de un clic.",
+    idealFor: "Tiendas de ropa, librerías, refacciones, regalos, productos artesanales y cualquier negocio que quiera vender en línea.",
+  },
+];
+
 export const useCases = [
   {
     title: "Captación automática de leads",
@@ -202,8 +353,12 @@ export const vision =
   "En Nexora Systems nuestra visión es convertirnos en un referente en innovación tecnológica, siendo el aliado estratégico de empresas que buscan transformar sus procesos mediante soluciones de software inteligentes, seguras y escalables. Aspiramos a impulsar la digitalización y el crecimiento sostenible de nuestros clientes, expandiendo nuestra presencia y generando un impacto positivo en México y Latinoamérica.";
 
 export const footerServices = [
-  "Sistemas de punto de venta (POS)",
-  "Control de inventarios",
-  "Reportes y analíticas",
+  "Punto de venta",
+  "Gestión hotelera",
+  "Sistema de citas",
+  "Gestión de taxis",
+  "Restaurantes",
+  "Gimnasios",
+  "E-commerce",
   "Desarrollo a la medida",
 ];

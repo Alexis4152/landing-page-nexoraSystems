@@ -4,6 +4,7 @@ import WhatsAppFloat from "./components/ui/WhatsAppFloat";
 import Hero from "./components/sections/Hero";
 import Metrics from "./components/sections/Metrics";
 import Problems from "./components/sections/Problems";
+import Projects from "./components/sections/Projects";
 import Benefits from "./components/sections/Benefits";
 import MissionVision from "./components/sections/MissionVision";
 import HowItWorks from "./components/sections/HowItWorks";
@@ -20,6 +21,7 @@ function App() {
         <Hero />
         <Metrics />
         <Problems />
+        <Projects />
         <Benefits />
         <MissionVision />
         <HowItWorks />
